@@ -1,0 +1,9 @@
+# Ignore all HTML files:
+*.html
+
+# Ignore all Vue files:
+*.vue
+
+# Ignore artifacts:
+build
+coverage

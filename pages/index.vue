@@ -3,6 +3,7 @@
     <TheHeader />
 
     <h1 class="font-bold text-4xl">Blog Posts</h1>
+    <button @click="toggle">Change Theme</button>
     <ul class="flex flex-wrap">
       <li
         v-for="article of articles"
@@ -81,6 +82,12 @@ export default {
     return {
       articles,
       tags
+    }
+  },
+  methods: {
+    toggle() {
+      this.$colorMode.preference =
+        this.$colorMode.value == "light" ? "dark" : "light";
     }
   }
 }

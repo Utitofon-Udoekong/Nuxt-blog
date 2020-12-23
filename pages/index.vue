@@ -12,7 +12,7 @@
       >
         <NuxtLink
           :to="{ name: 'blog-slug', params: { slug: article.slug } }"
-          class="flex transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md xxlmax:flex-col"
+          class="flex transition-shadow duration-250 ease-in-out shadow-sm hover:shadow-xl xxlmax:flex-col"
         >
           <img
             v-if="article.img"
@@ -54,7 +54,7 @@
         <a
           href="https://twitter.com/debs_obrien"
           class="font-bold hover:underline"
-          >Debbie O'Brien</a
+          >Utitofon S. Udoekong</a
         >
         at NuxtJS. See the
         <a
